@@ -5,7 +5,7 @@
 
 > CSS modules shareable config for stylelint.
 
-Tweaks [stylelint] rules to accept [css modules] specific syntax.
+Tweaks [stylelint] rules to accept [css modules] specific syntax.  
 This is useful as an override of pre-defined rules, for instance the [stylelint-config-standard].
 
 

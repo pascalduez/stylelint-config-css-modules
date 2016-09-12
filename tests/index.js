@@ -1,6 +1,6 @@
 import path from 'path';
-import stylelint from 'stylelint'
-import test from 'ava'
+import test from 'ava';
+import stylelint from 'stylelint';
 
 
 const config = {
@@ -10,7 +10,7 @@ const config = {
   ],
 };
 
-const code = (`
+const code = `
 @value grey: #ccc;
 @value colors: './colors.css';
 @value primary, secondary from colors;
@@ -33,7 +33,7 @@ const code = (`
 :global(.js) .progressive {
   display: block;
 }
-`);
+`;
 
 test('should not results errors nor warnings', async t => {
   const data = await stylelint.lint({
