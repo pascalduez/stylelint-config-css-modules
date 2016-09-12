@@ -18,16 +18,22 @@
     "url": "git://github.com/pascalduez/stylelint-config-css-modules.git"
   },
   "license": "Unlicense",
+  "main": "index.js",
   "files": [
     "CHANGELOG.md",
     "index.js",
     "README.md",
     "UNLICENSE"
   ],
-  "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "stylelint": "^7.2.0",
+    "stylelint-config-standard": "^13.0.0"
+  },
   "peerDependencies": {
     "stylelint": "^7.2.0"
   },
-  "scripts": {}
+  "scripts": {
+    "test": "ava tests/*.js"
+  }
 }

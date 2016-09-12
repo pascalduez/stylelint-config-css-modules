@@ -1,0 +1,49 @@
+import path from 'path';
+import stylelint from 'stylelint'
+import test from 'ava'
+
+
+const config = {
+  extends: [
+    'stylelint-config-standard',
+    path.resolve('../'),
+  ],
+};
+
+const code = (`
+@value grey: #ccc;
+@value colors: './colors.css';
+@value primary, secondary from colors;
+@value small as bp-small, large as bp-large from './breakpoints.css';
+
+.base {
+  content: 'base';
+  color: grey;
+}
+
+.composed {
+  composes: base;
+}
+
+.flexible {
+  composes: flex from './utils.css';
+  flex-direction: column;
+}
+
+:global(.js) .progressive {
+  display: block;
+}
+`);
+
+test('should not results errors nor warnings', async t => {
+  const data = await stylelint.lint({
+    code,
+    config,
+  });
+
+  const { errored, results } = data;
+  const { warnings } = results[0];
+
+  t.falsy(errored, 'no errors');
+  t.is(warnings.length, 0, 'no warnings');
+});
