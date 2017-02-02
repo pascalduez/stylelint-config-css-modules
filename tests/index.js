@@ -6,7 +6,7 @@ import stylelint from 'stylelint';
 const config = {
   extends: [
     'stylelint-config-standard',
-    path.resolve('../'),
+    path.join(__dirname, '..'),
   ],
 };
 
