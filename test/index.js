@@ -34,6 +34,11 @@ const code = `
   flex-direction: column;
 }
 
+.useSomeGlobal {
+  composes: u-whatever from global;
+  composes: global(u-whatsoever);
+}
+
 :global(.js) .progressive {
   display: block;
 }
