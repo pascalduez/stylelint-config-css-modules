@@ -25,6 +25,10 @@ const code = `
   composes: base;
 }
 
+.composedWith {
+  compose-with: base;
+}
+
 .flexible {
   composes: flex from './utils.css';
   flex-direction: column;

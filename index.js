@@ -11,6 +11,7 @@ module.exports = {
     'property-no-unknown': [ true, {
       ignoreProperties: [
         'composes',
+        'compose-with',
       ],
     }],
     'at-rule-no-unknown': [ true, {
