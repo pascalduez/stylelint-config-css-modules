@@ -26,7 +26,7 @@
     "UNLICENSE"
   ],
   "scripts": {
-    "test": "ava tests/*.js"
+    "test": "ava"
   },
   "devDependencies": {
     "ava": "^0.19.1",
