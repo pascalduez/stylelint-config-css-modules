@@ -16,7 +16,17 @@ module.exports = {
     }],
     'at-rule-no-unknown': [ true, {
       ignoreAtRules: [
+        'each',
+        'else',
+        'extend',
+        'for',
+        'function',
+        'if',
+        'include',
+        'mixin',
+        'return',
         'value',
+        'while',
       ],
     }],
   },
