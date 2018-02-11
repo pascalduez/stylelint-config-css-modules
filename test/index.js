@@ -37,6 +37,7 @@ const code = `
 .useSomeGlobal {
   composes: u-whatever from global;
   composes: global(u-whatsoever);
+  compose-with: global(u-anything);
 }
 
 :global(.js) .progressive {
