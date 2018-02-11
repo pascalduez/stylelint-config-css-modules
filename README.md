@@ -14,6 +14,11 @@ This is useful as an override of pre-defined rules, for instance the [stylelint-
 ```
 npm install stylelint-config-css-modules --save-dev
 ```
+or
+
+```
+yarn add stylelint-config-css-modules --dev
+```
 
 
 ## Usage
