@@ -6,18 +6,23 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [1.2.0] - 2018-02-18
+### Added
+  * Added support for Stylelint 9.
+
 ## [1.1.0] - 2017-07-17
 ### Added
   * Added support for Stylelint 8.
 
 ## [1.0.0] - 2017-04-17
 ### Added
-  * Support for the `compose-with` property.
+  * Added support for the `compose-with` property.
 
 ## [0.1.0] - 2016-09-12
   * Initial release.
 
-[Unreleased]: https:///github.com/pascalduez/stylelint-config-css-modules/compare/1.1.0...HEAD
+[Unreleased]: https:///github.com/pascalduez/stylelint-config-css-modules/compare/1.2.0...HEAD
+[1.2.0]: https:///github.com/pascalduez/stylelint-config-css-modules/tags/1.2.0
 [1.1.0]: https:///github.com/pascalduez/stylelint-config-css-modules/tags/1.1.0
 [1.0.0]: https:///github.com/pascalduez/stylelint-config-css-modules/tags/1.0.0
 [0.1.0]: https:///github.com/pascalduez/stylelint-config-css-modules/tags/0.1.0
