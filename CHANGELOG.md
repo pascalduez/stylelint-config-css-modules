@@ -5,6 +5,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Added
+  * Added support for modular-css `:external` pseudo class.
+    See https://github.com/tivac/modular-css#style-overrides
 
 ## [1.2.0] - 2018-02-18
 ### Added

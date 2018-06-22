@@ -39,6 +39,10 @@ const code = `
 :global(.js) .progressive {
   display: block;
 }
+
+.fieldset :external(input from './input.css') {
+  width: 50%;
+}
 `;
 
 test('should not results errors nor warnings', async t => {
