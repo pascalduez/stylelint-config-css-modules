@@ -2,12 +2,8 @@ import path from 'path';
 import test from 'ava';
 import stylelint from 'stylelint';
 
-
 const config = {
-  extends: [
-    'stylelint-config-standard',
-    path.join(__dirname, '..'),
-  ],
+  extends: ['stylelint-config-standard', path.join(__dirname, '..')],
 };
 
 const code = `
