@@ -29,7 +29,7 @@
     "test": "ava"
   },
   "devDependencies": {
-    "ava": "^1.1.0",
+    "ava": "^1.2.1",
     "stylelint": "^9.10.1",
     "stylelint-config-standard": "^18.1.0"
   },

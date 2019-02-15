@@ -30,7 +30,7 @@ const code = `
   flex-direction: column;
 }
 
-.useSomeGlobal {
+.globals {
   composes: u-whatever from global;
   composes: global(u-whatsoever);
   compose-with: global(u-anything);
@@ -40,6 +40,17 @@ const code = `
   display: block;
 }
 
+:export {
+  /* stylelint-disable property-no-unknown */
+  black: #000;
+  white: #111;
+  /* stylelint-enable */
+}
+
+/**
+ * Modular CSS
+ * https://github.com/tivac/modular-css
+ */
 .fieldset :external(input from './input.css') {
   width: 50%;
 }
