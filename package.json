@@ -34,6 +34,6 @@
     "stylelint-config-standard": "^18.3.0"
   },
   "peerDependencies": {
-    "stylelint": "7.x - 9.x"
+    "stylelint": "7.x - 10.x"
   }
 }
