@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-css-modules",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "CSS modules shareable config for stylelint",
   "keywords": [
     "stylelint",
