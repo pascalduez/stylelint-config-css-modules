@@ -29,8 +29,8 @@
     "test": "ava"
   },
   "devDependencies": {
-    "ava": "^1.4.1",
-    "stylelint": "^10.0.0",
+    "ava": "^2.3.0",
+    "stylelint": "^10.1.0",
     "stylelint-config-standard": "^18.3.0"
   },
   "peerDependencies": {
