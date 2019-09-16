@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [1.5.0] - 2019-09-16
 ### Added
   * Added support for Stylelint 11.
 
@@ -32,7 +34,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [0.1.0] - 2016-09-12
   * Initial release.
 
-[Unreleased]: https://github.com/pascalduez/stylelint-config-css-modules/compare/1.4.0...HEAD
+[Unreleased]: https://github.com/pascalduez/stylelint-config-css-modules/compare/1.5.0...HEAD
+[1.5.0]: https://github.com/pascalduez/stylelint-config-css-modules/tags/1.5.0
 [1.4.0]: https://github.com/pascalduez/stylelint-config-css-modules/tags/1.4.0
 [1.3.0]: https://github.com/pascalduez/stylelint-config-css-modules/tags/1.3.0
 [1.2.0]: https://github.com/pascalduez/stylelint-config-css-modules/tags/1.2.0
