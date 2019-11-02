@@ -41,10 +41,12 @@ const code = `
 }
 
 :export {
-  /* stylelint-disable property-no-unknown */
   black: #000;
   white: #111;
-  /* stylelint-enable */
+}
+
+:import("./path/to/file.css") {
+  alias: keyFromFile;
 }
 
 /**
