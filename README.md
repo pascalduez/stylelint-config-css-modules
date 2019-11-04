@@ -61,66 +61,10 @@ yarn add stylelint-config-css-modules --dev
 :global(.js) .progressive {
   display: block;
 }
-```
 
-## Dealing with `:export` variables
-
-> A couple of available solutions, pick your poison
-
-#### 1. Inline comments
-
-```css
 :export {
-  /* stylelint-disable property-no-unknown */
   black: #000;
   white: #111;
-  /* stylelint-enable */
-}
-```
-
-#### 2. Prefixed names
-
-```css
-:export {
-  $black: #000;
-  $white: #111;
-}
-```
-
-#### 3. Config whitelist
-
-```json
-{
-  "rules": {
-    "property-no-unknown": [
-      true,
-      {
-        "ignoreProperties": ["black", "white"]
-      }
-    ]
-  }
-}
-```
-
-#### 4. Custom prefix
-
-```css
-:export {
-  foo-black: #000;
-  foo-white: #111;
-}
-```
-
-```json
-{
-  "rules": {
-    "property-no-unknown": [
-      true,
-      {
-        "ignoreProperties": ["/^foo/"]
-      }
-    ]
-  }
 }
 ```
 

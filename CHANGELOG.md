@@ -5,6 +5,11 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Added
+  * Added support for `:export` and `:import()` selectors.
+
+### Changed
+  * Only support Stylelint 11 onwards.
 
 ## [1.5.0] - 2019-09-16
 ### Added

@@ -22,6 +22,7 @@ module.exports = {
       true,
       {
         ignoreProperties: ['composes', 'compose-with'],
+        ignoreSelectors: [':export', /^:import/],
       },
     ],
     'at-rule-no-unknown': [
