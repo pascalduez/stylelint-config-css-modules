@@ -5,11 +5,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [2.0.0] - 2019-11-04
 ### Added
-  * Added support for `:export` and `:import()` selectors.
+  * support for `:export` and `:import()` selectors.
 
 ### Changed
-  * Only support Stylelint 11 onwards.
+  * **Breaking**
+   Only support Stylelint 11 onwards.
 
 ## [1.5.0] - 2019-09-16
 ### Added
@@ -39,7 +42,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [0.1.0] - 2016-09-12
   * Initial release.
 
-[Unreleased]: https://github.com/pascalduez/stylelint-config-css-modules/compare/1.5.0...HEAD
+[Unreleased]: https://github.com/pascalduez/stylelint-config-css-modules/compare/2.0.0...HEAD
+[2.0.0]: https://github.com/pascalduez/stylelint-config-css-modules/tags/2.0.0
 [1.5.0]: https://github.com/pascalduez/stylelint-config-css-modules/tags/1.5.0
 [1.4.0]: https://github.com/pascalduez/stylelint-config-css-modules/tags/1.4.0
 [1.3.0]: https://github.com/pascalduez/stylelint-config-css-modules/tags/1.3.0
