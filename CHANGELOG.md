@@ -5,10 +5,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Added
+  * Add support for Stylelint 12.
 
 ## [2.0.0] - 2019-11-04
 ### Added
-  * support for `:export` and `:import()` selectors.
+  * Add support for `:export` and `:import()` selectors.
 
 ### Changed
   * **Breaking**
@@ -16,28 +18,28 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [1.5.0] - 2019-09-16
 ### Added
-  * Added support for Stylelint 11.
+  * Add support for Stylelint 11.
 
 ## [1.4.0] - 2019-04-14
 ### Added
-  * Added support for Stylelint 10.
+  * Add support for Stylelint 10.
 
 ## [1.3.0] - 2018-06-23
 ### Added
-  * Added support for modular-css `:external` pseudo class.
+  * Add support for modular-css `:external` pseudo class.
     See https://github.com/tivac/modular-css#style-overrides
 
 ## [1.2.0] - 2018-02-18
 ### Added
-  * Added support for Stylelint 9.
+  * Add support for Stylelint 9.
 
 ## [1.1.0] - 2017-07-17
 ### Added
-  * Added support for Stylelint 8.
+  * Add support for Stylelint 8.
 
 ## [1.0.0] - 2017-04-17
 ### Added
-  * Added support for the `compose-with` property.
+  * Add support for the `compose-with` property.
 
 ## [0.1.0] - 2016-09-12
   * Initial release.
