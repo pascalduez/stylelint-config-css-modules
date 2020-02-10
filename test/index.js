@@ -1,6 +1,6 @@
-import path from 'path';
-import test from 'ava';
-import stylelint from 'stylelint';
+const path = require('path');
+const test = require('ava');
+const stylelint = require('stylelint');
 
 const config = {
   extends: ['stylelint-config-standard', path.join(__dirname, '..')],
@@ -46,7 +46,7 @@ const code = `
 }
 
 :import("./path/to/file.css") {
-  alias: keyFromFile;
+  alias: keyfromfile;
 }
 
 /**
