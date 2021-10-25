@@ -8,12 +8,12 @@ const config = {
 
 const code = `
 @value grey: #ccc;
-@value colors: './colors.css';
+@value colors: "./colors.css";
 @value primary, secondary from colors;
-@value small as bp-small, large as bp-large from './breakpoints.css';
+@value small as bp-small, large as bp-large from "./breakpoints.css";
 
 .base {
-  content: 'base';
+  content: "base";
   color: grey;
 }
 
@@ -21,12 +21,12 @@ const code = `
   composes: base;
 }
 
-.composedWith {
+.composed-with {
   compose-with: base;
 }
 
 .flexible {
-  composes: flex from './utils.css';
+  composes: flex from "./utils.css";
   flex-direction: column;
 }
 
@@ -53,14 +53,14 @@ const code = `
  * Modular CSS
  * https://github.com/tivac/modular-css
  */
-.fieldset :external(input from './input.css') {
+.fieldset :external(input from "./input.css") {
   width: 50%;
 }
 `;
 
-test('should not results errors nor warnings', async t => {
+test('should not results errors nor warnings', async (t) => {
   const data = await stylelint.lint({
-    code,
+    code: code.trimStart(),
     config,
   });
 
