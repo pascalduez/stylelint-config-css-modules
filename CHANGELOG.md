@@ -5,11 +5,13 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [3.0.0] - 2022-02-11
 ### Changed
   * `stylelint-config-standard@25.x` upgrade.
     Added `function-no-unknown` rule override to support `global` function.
   * **Breaking**
-   Only support Stylelint 14 onwards.
+    Only support Stylelint 14 onwards.
 
 ## [2.3.0] - 2021-10-25
 ### Added
@@ -59,7 +61,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [0.1.0] - 2016-09-12
   * Initial release.
 
-[Unreleased]: https://github.com/pascalduez/stylelint-config-css-modules/compare/2.2.0...HEAD
+[Unreleased]: https://github.com/pascalduez/stylelint-config-css-modules/compare/3.0.0...HEAD
+[3.0.0]: https://github.com/pascalduez/stylelint-config-css-modules/tags/3.0.0
+[2.3.0]: https://github.com/pascalduez/stylelint-config-css-modules/tags/2.3.0
 [2.2.0]: https://github.com/pascalduez/stylelint-config-css-modules/tags/2.2.0
 [2.1.0]: https://github.com/pascalduez/stylelint-config-css-modules/tags/2.1.0
 [2.0.0]: https://github.com/pascalduez/stylelint-config-css-modules/tags/2.0.0
