@@ -31,5 +31,11 @@ module.exports = {
         ignoreAtRules: ['value'],
       },
     ],
+    'function-no-unknown': [
+      true,
+      {
+        ignoreFunctions: ['global'],
+      },
+    ],
   },
 };

@@ -5,6 +5,11 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Changed
+  * `stylelint-config-standard@25.x` upgrade.
+    Added `function-no-unknown` rule override to support `global` function.
+  * **Breaking**
+   Only support Stylelint 14 onwards.
 
 ## [2.3.0] - 2021-10-25
 ### Added

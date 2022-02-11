@@ -58,7 +58,7 @@ const code = `
 }
 `;
 
-test('should not results errors nor warnings', async (t) => {
+test('should not results errors nor warnings', async t => {
   const data = await stylelint.lint({
     code: code.trimStart(),
     config,
