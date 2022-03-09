@@ -38,4 +38,26 @@ module.exports = {
       },
     ],
   },
+  overrides: [
+    {
+      files: '**/*.scss',
+      rules: {
+        'at-rule-no-unknown': null,
+        'scss/at-rule-no-unknown': [
+          true,
+          {
+            ignoreAtRules: ['value'],
+          },
+        ],
+        'function-no-unknown': null,
+        // https://github.com/stylelint-scss/stylelint-scss/pull/591
+        // 'scss/function-no-unknown': [
+        //   true,
+        //   {
+        //     ignoreAtRules: ['global'],
+        //   },
+        // ],
+      },
+    },
+  ],
 };

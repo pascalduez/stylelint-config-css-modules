@@ -1,0 +1,12 @@
+{
+  "singleQuote": true,
+  "arrowParens": "avoid",
+  "overrides": [
+    {
+      "files": ["**/*.css", "**/*.scss"],
+      "options": {
+        "singleQuote": false
+      }
+    }
+  ]
+}

@@ -20,6 +20,19 @@ or
 yarn add stylelint-config-css-modules --dev
 ```
 
+> `stylelint-config-css-modules` comes with `stylelint-scss` as `optionalDependencies`, 
+if you're not using SCSS and want to strip it from your node_modules just:
+
+```
+npm install stylelint-config-css-modules --save-dev --no-optional
+```
+
+or
+
+```
+yarn add stylelint-config-css-modules --dev --ignore-optional
+```
+
 ## Usage
 
 ```json
@@ -27,10 +40,7 @@ yarn add stylelint-config-css-modules --dev
   "extends": [
     "stylelint-config-standard",
     "stylelint-config-css-modules"
-  ],
-  "rules": {
-    [...]
-  }
+  ]
 }
 ```
 
@@ -68,6 +78,20 @@ yarn add stylelint-config-css-modules --dev
 }
 ```
 
+## SCSS
+
+Using SCSS along with configs such as [stylelint-config-standard-scss] means you 
+should necessarily have [stylelint-scss] installed.
+
+```json
+{
+  "extends": [
+    "stylelint-config-standard-scss",
+    "stylelint-config-css-modules"
+  ]
+}
+```
+
 ## Credits
 
 - [Pascal Duez](https://github.com/pascalduez)
@@ -80,6 +104,10 @@ stylelint-config-css-modules is [unlicensed](http://unlicense.org/).
 [npm-image]: http://img.shields.io/npm/v/stylelint-config-css-modules.svg?style=flat-square
 [ci-url]: https://github.com/pascalduez/stylelint-config-css-modules/actions/workflows/ci.yml
 [ci-image]: https://img.shields.io/github/workflow/status/pascalduez/stylelint-config-css-modules/CI?style=flat-square
+
 [stylelint]: https://github.com/stylelint/stylelint
-[stylelint-config-standard]: https://github.com/stylelint/stylelint-config-standard
 [css modules]: https://github.com/css-modules/css-modules
+[stylelint-scss]: https://github.com/stylelint-scss/stylelint-config-standard-scss
+[stylelint-config-standard]: https://github.com/stylelint/stylelint-config-standard
+[stylelint-config-standard-scss]: https://github.com/stylelint-scss/stylelint-config-standard-scss
+
