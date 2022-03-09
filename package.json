@@ -22,6 +22,7 @@
   "files": [
     "CHANGELOG.md",
     "index.js",
+    "scss.js",
     "README.md",
     "UNLICENSE"
   ],
@@ -31,6 +32,7 @@
   "devDependencies": {
     "ava": "^4.1.0",
     "stylelint": "^14.5.3",
+    "stylelint-config-recommended-scss": "^5.0.2",
     "stylelint-config-standard": "^25.0.0"
   },
   "peerDependencies": {

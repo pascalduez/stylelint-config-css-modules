@@ -5,6 +5,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Added
+  * A new `scss` config, relying on `stylelint-scss` for:
+    - `at-rule-no-unknown`
+    See https://github.com/pascalduez/stylelint-config-css-modules/issues/6
 
 ## [3.0.0] - 2022-02-11
 ### Changed

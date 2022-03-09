@@ -27,10 +27,7 @@ yarn add stylelint-config-css-modules --dev
   "extends": [
     "stylelint-config-standard",
     "stylelint-config-css-modules"
-  ],
-  "rules": {
-    [...]
-  }
+  ]
 }
 ```
 
@@ -65,6 +62,19 @@ yarn add stylelint-config-css-modules --dev
 :export {
   black: #000;
   white: #111;
+}
+```
+
+## SCSS
+
+Using SCSS along with configs such as `stylelint-config-recommended-scss`, just extend the `scss` config provided.
+
+```json
+{
+  "extends": [
+    "stylelint-config-recommended-scss",
+    "stylelint-config-css-modules/scss"
+  ]
 }
 ```
 
