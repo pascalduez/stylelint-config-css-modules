@@ -5,10 +5,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [4.0.1] - 2022-03-11
 ### Fixed
   * Missing SCSS plugin declaration.
 
-## [4.0.0] - 2022-02-11
+## [4.0.0] - 2022-03-11
 ### Added
   * SCSS support trough `overrides` relying on `stylelint-scss` for:
     - `at-rule-no-unknown`
@@ -71,7 +73,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [0.1.0] - 2016-09-12
   * Initial release.
 
-[Unreleased]: https://github.com/pascalduez/stylelint-config-css-modules/compare/4.0.0...HEAD
+[Unreleased]: https://github.com/pascalduez/stylelint-config-css-modules/compare/4.0.1...HEAD
+[4.0.1]: https://github.com/pascalduez/stylelint-config-css-modules/tags/4.0.1
 [4.0.0]: https://github.com/pascalduez/stylelint-config-css-modules/tags/4.0.0
 [3.0.0]: https://github.com/pascalduez/stylelint-config-css-modules/tags/3.0.0
 [2.3.0]: https://github.com/pascalduez/stylelint-config-css-modules/tags/2.3.0
