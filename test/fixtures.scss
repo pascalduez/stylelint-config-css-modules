@@ -1,0 +1,14 @@
+@use "sass:math";
+@value grey: #ccc;
+
+.globals {
+  composes: global(u-whatsoever);
+}
+
+@mixin foo() {
+  @content;
+}
+
+.test {
+  content: math.div(42, 5);
+}
