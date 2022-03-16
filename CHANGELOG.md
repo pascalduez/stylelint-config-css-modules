@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [4.1.0] - 2022-03-16
 ### Added
   * SCSS, use the `function-no-unknow` rule from `stylelint-scss >= 4.2`.
 
@@ -79,7 +81,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [0.1.0] - 2016-09-12
   * Initial release.
 
-[Unreleased]: https://github.com/pascalduez/stylelint-config-css-modules/compare/4.0.1...HEAD
+[Unreleased]: https://github.com/pascalduez/stylelint-config-css-modules/compare/4.1.0...HEAD
+[4.1.0]: https://github.com/pascalduez/stylelint-config-css-modules/tags/4.1.0
 [4.0.1]: https://github.com/pascalduez/stylelint-config-css-modules/tags/4.0.1
 [4.0.0]: https://github.com/pascalduez/stylelint-config-css-modules/tags/4.0.0
 [3.0.0]: https://github.com/pascalduez/stylelint-config-css-modules/tags/3.0.0
