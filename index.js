@@ -51,13 +51,12 @@ module.exports = {
           },
         ],
         'function-no-unknown': null,
-        // https://github.com/stylelint-scss/stylelint-scss/pull/591
-        // 'scss/function-no-unknown': [
-        //   true,
-        //   {
-        //     ignoreAtRules: ['global'],
-        //   },
-        // ],
+        'scss/function-no-unknown': [
+          true,
+          {
+            ignoreFunctions: ['global'],
+          },
+        ],
       },
     },
   ],

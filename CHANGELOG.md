@@ -5,6 +5,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Added
+  * SCSS, use the `function-no-unknow` rule from `stylelint-scss >= 4.2`.
+
+### Changed
+  * Stylelint peerDependency version to `^14.5.1` 
+    (required by the function-no-unknown rule).
 
 ## [4.0.1] - 2022-03-11
 ### Fixed
