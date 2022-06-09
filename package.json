@@ -29,10 +29,10 @@
     "test": "ava"
   },
   "devDependencies": {
-    "ava": "^4.1.0",
-    "stylelint": "^14.6.0",
-    "stylelint-config-standard": "^25.0.0",
-    "stylelint-config-standard-scss": "^3.0.0"
+    "ava": "^4.3.0",
+    "stylelint": "^14.9.0",
+    "stylelint-config-standard": "^26.0.0",
+    "stylelint-config-standard-scss": "^4.0.0"
   },
   "peerDependencies": {
     "stylelint": "^14.5.1"
