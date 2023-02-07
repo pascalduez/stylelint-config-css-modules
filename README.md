@@ -103,7 +103,7 @@ stylelint-config-css-modules is [unlicensed](http://unlicense.org/).
 [npm-url]: https://www.npmjs.org/package/stylelint-config-css-modules
 [npm-image]: http://img.shields.io/npm/v/stylelint-config-css-modules.svg?style=flat-square
 [ci-url]: https://github.com/pascalduez/stylelint-config-css-modules/actions/workflows/ci.yml
-[ci-image]: https://img.shields.io/github/workflow/status/pascalduez/stylelint-config-css-modules/CI?style=flat-square
+[ci-image]:  https://img.shields.io/github/actions/workflow/status/pascalduez/stylelint-config-css-modules/ci.yml?branch=main&style=flat-square
 
 [stylelint]: https://github.com/stylelint/stylelint
 [css modules]: https://github.com/css-modules/css-modules
