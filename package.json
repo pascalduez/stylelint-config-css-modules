@@ -26,10 +26,9 @@
     "UNLICENSE"
   ],
   "scripts": {
-    "test": "ava"
+    "test": "node --test"
   },
   "devDependencies": {
-    "ava": "^5.0.1",
     "stylelint": "^14.14.0",
     "stylelint-config-standard": "^29.0.0",
     "stylelint-config-standard-scss": "^5.0.0"
