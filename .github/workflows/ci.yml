@@ -20,15 +20,16 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'yarn'
+          cache: 'pnpm'
 
       - name: Install
-        run: yarn install --frozen-lockfile --ignore-scripts
+        run: pnpm install
     
       - name: Test
-        run: yarn run test
+        run: pnpm test
