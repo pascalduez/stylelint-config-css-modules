@@ -6,7 +6,7 @@ settings:
 
 optionalDependencies:
   stylelint-scss:
-    specifier: ^5.0.1
+    specifier: ^5.0.0 || ^6.0.0
     version: 5.0.1(stylelint@15.10.1)
 
 devDependencies:
