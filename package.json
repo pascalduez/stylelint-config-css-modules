@@ -26,10 +26,13 @@
     "UNLICENSE"
   ],
   "scripts": {
+    "format:check": "prettier -l '**/*.{js,css,scss}'",
+    "format:write": "prettier --write '**/*.{js,scss,css}'",    
     "test": "node --test"
   },
   "devDependencies": {
     "postcss": "^8.4.26",
+    "prettier": "^3.0.0",
     "stylelint": "^15.10.1",
     "stylelint-config-standard": "^34.0.0",
     "stylelint-config-standard-scss": "^10.0.0"
