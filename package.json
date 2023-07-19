@@ -29,16 +29,16 @@
     "test": "node --test"
   },
   "devDependencies": {
-    "postcss": "^8.4.24",
-    "stylelint": "^15.9.0",
-    "stylelint-config-standard": "^33.0.0",
-    "stylelint-config-standard-scss": "^8.0.0"
+    "postcss": "^8.4.26",
+    "stylelint": "^15.10.1",
+    "stylelint-config-standard": "^34.0.0",
+    "stylelint-config-standard-scss": "^10.0.0"
   },
   "peerDependencies": {
     "stylelint": "^14.5.1 || ^15.0.0"
   },
   "optionalDependencies": {
-    "stylelint-scss": "^4.7.0"
+    "stylelint-scss": "^5.0.1"
   },
-  "packageManager": "pnpm@8.6.5"
+  "packageManager": "pnpm@8.6.9"
 }
