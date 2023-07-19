@@ -12,11 +12,9 @@ This is useful as an override of pre-defined rules, for instance the [stylelint-
 
 ```
 npm install stylelint-config-css-modules --save-dev
-```
-
-or
-
-```
+# or
+pnpm install stylelint-config-css-modules --save-dev
+# or
 yarn add stylelint-config-css-modules --dev
 ```
 
@@ -25,11 +23,9 @@ if you're not using SCSS and want to strip it from your node_modules just:
 
 ```
 npm install stylelint-config-css-modules --save-dev --no-optional
-```
-
-or
-
-```
+# or
+pnpm install stylelint-config-css-modules --save-dev --no-optional
+# or
 yarn add stylelint-config-css-modules --dev --ignore-optional
 ```
 
