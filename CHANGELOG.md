@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [4.3.0] - 2023-07-19
 ### Added
   * Add support for `stylelint-scss@6.x` in optional dependencies.
 
