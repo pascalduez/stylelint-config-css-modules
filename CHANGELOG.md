@@ -6,6 +6,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [4.4.0] - 2023-12-20
+### Added
+  * Add support for Stylelint 16.
+    None of the breaking changes are impacting this config.
+    It stays compatible with previous Stylelint versions.
+
+### Changed
+  * Converted to an ES module, but with added support for commonjs.
+    It should be transparent to consumers.
+
 ## [4.3.0] - 2023-07-19
 ### Added
   * Add support for `stylelint-scss@6.x` in optional dependencies.
