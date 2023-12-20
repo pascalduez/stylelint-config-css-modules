@@ -1,10 +1,12 @@
-const path = require('node:path');
-const test = require('node:test');
-const assert = require('node:assert/strict');
-const stylelint = require('stylelint');
+import path from 'node:path';
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import stylelint from 'stylelint';
+
+const dir = new URL('.', import.meta.url).pathname;
 
 const config = {
-  extends: ['stylelint-config-standard-scss', path.join(__dirname, '..')],
+  extends: ['stylelint-config-standard', path.join(dir, '..', 'index.js')],
 };
 
 test('should not results errors nor warnings', async () => {
