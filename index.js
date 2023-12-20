@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   rules: {
     'selector-pseudo-class-no-unknown': [
       true,
