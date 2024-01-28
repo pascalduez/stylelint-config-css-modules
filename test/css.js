@@ -3,10 +3,11 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import stylelint from 'stylelint';
 
-const dir = new URL('.', import.meta.url).pathname;
-
 const config = {
-  extends: ['stylelint-config-standard', path.join(dir, '..', 'index.js')],
+  extends: [
+    'stylelint-config-standard',
+    path.join(import.meta.dirname, '..', 'index.js'),
+  ],
 };
 
 test('should not results errors nor warnings', async () => {
