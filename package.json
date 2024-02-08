@@ -38,12 +38,12 @@
     "build": "rollup -c",
     "prepare": "pnpm build"
   },
-  "packageManager": "pnpm@8.15.0+sha256.fd1eab68a6d403f35cf3259c53780d70b0f14bd74e39da2f917d201f554d8665",
+  "packageManager": "pnpm@8.15.1+sha256.245fe901f8e7fa8782d7f17d32b6a83995e2ae03984cb5b62b8949bfdc27c7b5",
   "devDependencies": {
-    "postcss": "^8.4.33",
-    "prettier": "^3.2.4",
+    "postcss": "^8.4.35",
+    "prettier": "^3.2.5",
     "rollup": "^4.9.6",
-    "stylelint": "^16.2.0",
+    "stylelint": "^16.2.1",
     "stylelint-config-standard": "^36.0.0",
     "stylelint-config-standard-scss": "^13.0.0"
   },
