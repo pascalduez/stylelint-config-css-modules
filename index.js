@@ -37,6 +37,12 @@ export default {
         ignoreFunctions: ['global'],
       },
     ],
+    'value-keyword-case': [
+      'lower',
+      {
+        ignoreProperties: ['composes', 'compose-with'],
+      },
+    ],
   },
   overrides: [
     {
