@@ -32,8 +32,8 @@
     "UNLICENSE"
   ],
   "scripts": {
-    "format:check": "prettier -l '**/*.{js,css,scss}'",
-    "format:write": "prettier --write '**/*.{js,scss,css}'",
+    "format:check": "prettier -l \"**/*.{js,css,scss}\"",
+    "format:write": "prettier --write \"**/*.{js,scss,css}\"",
     "test": "node --test",
     "build": "rollup -c",
     "prepare": "pnpm build"
