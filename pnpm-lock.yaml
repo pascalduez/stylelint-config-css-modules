@@ -9,66 +9,6 @@ importers:
   .:
     optionalDependencies:
       stylelint-scss:
-<<<<<<< HEAD
-        specifier: ^6.5.1
-        version: 6.5.1(stylelint@16.9.0)
-    devDependencies:
-      postcss:
-        specifier: ^8.4.42
-        version: 8.4.42
-      prettier:
-        specifier: ^3.3.3
-        version: 3.3.3
-      rollup:
-        specifier: ^4.21.2
-        version: 4.21.2
-      stylelint:
-        specifier: ^16.9.0
-        version: 16.9.0
-      stylelint-config-standard:
-        specifier: ^36.0.1
-        version: 36.0.1(stylelint@16.9.0)
-      stylelint-config-standard-scss:
-        specifier: ^13.1.0
-        version: 13.1.0(postcss@8.4.42)(stylelint@16.9.0)
-
-packages:
-
-  '@babel/code-frame@7.24.7':
-    resolution: {integrity: sha512-BcYH1CVJBO9tvyIZ2jVeXgSIMvGZ2FDRvDdOIVQyuklNKSsx+eppDEBq/g47Ayw+RqNFE+URvOShmf+f/qwAlA==}
-    engines: {node: '>=6.9.0'}
-
-  '@babel/helper-validator-identifier@7.24.7':
-    resolution: {integrity: sha512-rR+PBcQ1SMQDDyF6X0wxtG8QyLCgUB0eRAGguqRLfkCA87l7yAP7ehq8SNj96OOGTO8OBV70KhuFYcIkHXOg0w==}
-    engines: {node: '>=6.9.0'}
-
-  '@babel/highlight@7.24.7':
-    resolution: {integrity: sha512-EStJpq4OuY8xYfhGVXngigBJRWxftKX9ksiGDnmlY3o7B/V7KIAc9X4oiK87uPJSc/vs5L869bem5fhZa8caZw==}
-    engines: {node: '>=6.9.0'}
-
-  '@csstools/css-parser-algorithms@3.0.1':
-    resolution: {integrity: sha512-lSquqZCHxDfuTg/Sk2hiS0mcSFCEBuj49JfzPHJogDBT0mGCyY5A1AQzBWngitrp7i1/HAZpIgzF/VjhOEIJIg==}
-    engines: {node: '>=18'}
-    peerDependencies:
-      '@csstools/css-tokenizer': ^3.0.1
-
-  '@csstools/css-tokenizer@3.0.1':
-    resolution: {integrity: sha512-UBqaiu7kU0lfvaP982/o3khfXccVlHPWp0/vwwiIgDF0GmqqqxoiXC/6FCjlS9u92f7CoEz6nXKQnrn1kIAkOw==}
-    engines: {node: '>=18'}
-
-  '@csstools/media-query-list-parser@3.0.1':
-    resolution: {integrity: sha512-HNo8gGD02kHmcbX6PvCoUuOQvn4szyB9ca63vZHKX5A81QytgDG4oxG4IaEfHTlEZSZ6MjPEMWIVU+zF2PZcgw==}
-    engines: {node: '>=18'}
-    peerDependencies:
-      '@csstools/css-parser-algorithms': ^3.0.1
-      '@csstools/css-tokenizer': ^3.0.1
-
-  '@csstools/selector-specificity@4.0.0':
-    resolution: {integrity: sha512-189nelqtPd8++phaHNwYovKZI0FOzH1vQEE3QhHHkNIGrg5fSs9CbYP3RvfEH5geztnIA9Jwq91wyOIwAW5JIQ==}
-    engines: {node: '>=18'}
-    peerDependencies:
-      postcss-selector-parser: ^6.1.0
-=======
         specifier: ^6.10.0
         version: 6.10.0(stylelint@16.13.0)
     devDependencies:
@@ -85,11 +25,11 @@ packages:
         specifier: ^16.13.0
         version: 16.13.0
       stylelint-config-standard:
-        specifier: ^36.0.0
-        version: 36.0.0(stylelint@16.13.0)
+        specifier: ^37.0.0
+        version: 37.0.0(stylelint@16.13.0)
       stylelint-config-standard-scss:
-        specifier: ^13.1.0
-        version: 13.1.0(postcss@8.4.49)(stylelint@16.13.0)
+        specifier: ^14.0.0
+        version: 14.0.0(postcss@8.4.49)(stylelint@16.13.0)
 
 packages:
 
@@ -123,7 +63,6 @@ packages:
     engines: {node: '>=18'}
     peerDependencies:
       postcss-selector-parser: ^7.0.0
->>>>>>> b9e4e37 (Update dependencies)
 
   '@dual-bundle/import-meta-resolve@4.1.0':
     resolution: {integrity: sha512-+nxncfwHM5SgAtrVzgpzJOI1ol0PkumhVo469KCf9lUi21IGcY90G98VuHm9VRrUypmAzawAHO9bs6hqeADaVg==}
@@ -143,85 +82,6 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
-<<<<<<< HEAD
-  '@rollup/rollup-android-arm-eabi@4.21.2':
-    resolution: {integrity: sha512-fSuPrt0ZO8uXeS+xP3b+yYTCBUd05MoSp2N/MFOgjhhUhMmchXlpTQrTpI8T+YAwAQuK7MafsCOxW7VrPMrJcg==}
-    cpu: [arm]
-    os: [android]
-
-  '@rollup/rollup-android-arm64@4.21.2':
-    resolution: {integrity: sha512-xGU5ZQmPlsjQS6tzTTGwMsnKUtu0WVbl0hYpTPauvbRAnmIvpInhJtgjj3mcuJpEiuUw4v1s4BimkdfDWlh7gA==}
-    cpu: [arm64]
-    os: [android]
-
-  '@rollup/rollup-darwin-arm64@4.21.2':
-    resolution: {integrity: sha512-99AhQ3/ZMxU7jw34Sq8brzXqWH/bMnf7ZVhvLk9QU2cOepbQSVTns6qoErJmSiAvU3InRqC2RRZ5ovh1KN0d0Q==}
-    cpu: [arm64]
-    os: [darwin]
-
-  '@rollup/rollup-darwin-x64@4.21.2':
-    resolution: {integrity: sha512-ZbRaUvw2iN/y37x6dY50D8m2BnDbBjlnMPotDi/qITMJ4sIxNY33HArjikDyakhSv0+ybdUxhWxE6kTI4oX26w==}
-    cpu: [x64]
-    os: [darwin]
-
-  '@rollup/rollup-linux-arm-gnueabihf@4.21.2':
-    resolution: {integrity: sha512-ztRJJMiE8nnU1YFcdbd9BcH6bGWG1z+jP+IPW2oDUAPxPjo9dverIOyXz76m6IPA6udEL12reYeLojzW2cYL7w==}
-    cpu: [arm]
-    os: [linux]
-
-  '@rollup/rollup-linux-arm-musleabihf@4.21.2':
-    resolution: {integrity: sha512-flOcGHDZajGKYpLV0JNc0VFH361M7rnV1ee+NTeC/BQQ1/0pllYcFmxpagltANYt8FYf9+kL6RSk80Ziwyhr7w==}
-    cpu: [arm]
-    os: [linux]
-
-  '@rollup/rollup-linux-arm64-gnu@4.21.2':
-    resolution: {integrity: sha512-69CF19Kp3TdMopyteO/LJbWufOzqqXzkrv4L2sP8kfMaAQ6iwky7NoXTp7bD6/irKgknDKM0P9E/1l5XxVQAhw==}
-    cpu: [arm64]
-    os: [linux]
-
-  '@rollup/rollup-linux-arm64-musl@4.21.2':
-    resolution: {integrity: sha512-48pD/fJkTiHAZTnZwR0VzHrao70/4MlzJrq0ZsILjLW/Ab/1XlVUStYyGt7tdyIiVSlGZbnliqmult/QGA2O2w==}
-    cpu: [arm64]
-    os: [linux]
-
-  '@rollup/rollup-linux-powerpc64le-gnu@4.21.2':
-    resolution: {integrity: sha512-cZdyuInj0ofc7mAQpKcPR2a2iu4YM4FQfuUzCVA2u4HI95lCwzjoPtdWjdpDKyHxI0UO82bLDoOaLfpZ/wviyQ==}
-    cpu: [ppc64]
-    os: [linux]
-
-  '@rollup/rollup-linux-riscv64-gnu@4.21.2':
-    resolution: {integrity: sha512-RL56JMT6NwQ0lXIQmMIWr1SW28z4E4pOhRRNqwWZeXpRlykRIlEpSWdsgNWJbYBEWD84eocjSGDu/XxbYeCmwg==}
-    cpu: [riscv64]
-    os: [linux]
-
-  '@rollup/rollup-linux-s390x-gnu@4.21.2':
-    resolution: {integrity: sha512-PMxkrWS9z38bCr3rWvDFVGD6sFeZJw4iQlhrup7ReGmfn7Oukrr/zweLhYX6v2/8J6Cep9IEA/SmjXjCmSbrMQ==}
-    cpu: [s390x]
-    os: [linux]
-
-  '@rollup/rollup-linux-x64-gnu@4.21.2':
-    resolution: {integrity: sha512-B90tYAUoLhU22olrafY3JQCFLnT3NglazdwkHyxNDYF/zAxJt5fJUB/yBoWFoIQ7SQj+KLe3iL4BhOMa9fzgpw==}
-    cpu: [x64]
-    os: [linux]
-
-  '@rollup/rollup-linux-x64-musl@4.21.2':
-    resolution: {integrity: sha512-7twFizNXudESmC9oneLGIUmoHiiLppz/Xs5uJQ4ShvE6234K0VB1/aJYU3f/4g7PhssLGKBVCC37uRkkOi8wjg==}
-    cpu: [x64]
-    os: [linux]
-
-  '@rollup/rollup-win32-arm64-msvc@4.21.2':
-    resolution: {integrity: sha512-9rRero0E7qTeYf6+rFh3AErTNU1VCQg2mn7CQcI44vNUWM9Ze7MSRS/9RFuSsox+vstRt97+x3sOhEey024FRQ==}
-    cpu: [arm64]
-    os: [win32]
-
-  '@rollup/rollup-win32-ia32-msvc@4.21.2':
-    resolution: {integrity: sha512-5rA4vjlqgrpbFVVHX3qkrCo/fZTj1q0Xxpg+Z7yIo3J2AilW7t2+n6Q8Jrx+4MrYpAnjttTYF8rr7bP46BPzRw==}
-    cpu: [ia32]
-    os: [win32]
-
-  '@rollup/rollup-win32-x64-msvc@4.21.2':
-    resolution: {integrity: sha512-6UUxd0+SKomjdzuAcp+HAmxw1FlGBnl1v2yEPSabtx4lBfdXHDVsW7+lQkgz9cNFJGY3AWR7+V8P5BqkD9L9nA==}
-=======
   '@rollup/rollup-android-arm-eabi@4.30.1':
     resolution: {integrity: sha512-pSWY+EVt3rJ9fQ3IqlrEUtXh3cGqGtPDH1FQlNZehO2yYxCHEX1SPsz1M//NXwYfbTlcKr9WObLnJX9FsS9K1Q==}
     cpu: [arm]
@@ -314,7 +174,6 @@ packages:
 
   '@rollup/rollup-win32-x64-msvc@4.30.1':
     resolution: {integrity: sha512-D6qjsXGcvhTjv0kI4fU8tUuBDF/Ueee4SVX79VfNDXZa64TfCW1Slkb6Z7O1p7vflqZjcmOVdZlqf8gvJxc6og==}
->>>>>>> b9e4e37 (Update dependencies)
     cpu: [x64]
     os: [win32]
 
@@ -395,13 +254,8 @@ packages:
     engines: {node: '>=4'}
     hasBin: true
 
-<<<<<<< HEAD
-  debug@4.3.6:
-    resolution: {integrity: sha512-O/09Bd4Z1fBrU4VzkhFqVgpPzaGbw6Sm9FEkBT1A/YBXQFGuuSxa1dN2nxgxS34JmKXqYx8CZAwEVoJFImUXIg==}
-=======
   debug@4.4.0:
     resolution: {integrity: sha512-6WTZ/IxCY/T6BALoZHaE4ctp9xm+Z5kY/pzYaCHRFeyVhojxlrm+46y68HA6hr0TcwEssoxNiDEUJQjfPZ/RYA==}
->>>>>>> b9e4e37 (Update dependencies)
     engines: {node: '>=6.0'}
     peerDependencies:
       supports-color: '*'
@@ -430,13 +284,8 @@ packages:
     resolution: {integrity: sha512-7MptL8U0cqcFdzIzwOTHoilX9x5BrNqye7Z/LuC7kCMRio1EMSyqRK3BEAUD7sXRq4iT4AzTVuZdhgQ2TCvYLg==}
     engines: {node: '>=8.6.0'}
 
-<<<<<<< HEAD
-  fast-uri@3.0.1:
-    resolution: {integrity: sha512-MWipKbbYiYI0UC7cl8m/i/IWTqfC8YXsqjzybjddLsFjStroQzsHXkc73JutMvBiXmOvapk+axIl79ig5t55Bw==}
-=======
   fast-uri@3.0.5:
     resolution: {integrity: sha512-5JnBCWpFlMo0a3ciDy/JckMzzv1U9coZrIhedq+HXxxUfDTAiS0LA8OKVao4G9BxmCVck/jtA5r3KAtRWEyD8Q==}
->>>>>>> b9e4e37 (Update dependencies)
 
   fastest-levenshtein@1.0.16:
     resolution: {integrity: sha512-eRnCtTTtGZFpQCwhJiUOuxPQWRXVKYDn0b2PeHfXL6/Zi53SLAzAHfVhVWK2AryC/WH05kGfxhFIPvTF0SXQzg==}
@@ -445,14 +294,8 @@ packages:
   fastq@1.18.0:
     resolution: {integrity: sha512-QKHXPW0hD8g4UET03SdOdunzSouc9N4AuHdsX8XNcTsuz+yYFILVNIX4l9yHABMhiEI9Db0JTTIpu0wB+Y1QQw==}
 
-<<<<<<< HEAD
-  file-entry-cache@9.1.0:
-    resolution: {integrity: sha512-/pqPFG+FdxWQj+/WSuzXSDaNzxgTLr/OrR1QuqfEZzDakpdYE70PwUxL7BPUa8hpjbvY1+qvCl8k+8Tq34xJgg==}
-    engines: {node: '>=18'}
-=======
   file-entry-cache@10.0.5:
     resolution: {integrity: sha512-umpQsJrBNsdMDgreSryMEXvJh66XeLtZUwA8Gj7rHGearGufUFv6rB/bcXRFsiGWw/VeSUgUofF4Rf2UKEOrTA==}
->>>>>>> b9e4e37 (Update dependencies)
 
   fill-range@7.1.1:
     resolution: {integrity: sha512-YsGpe3WHLK8ZYi4tWDg2Jy3ebRz2rXowDxnld4bkQB00cc/1Zw9AWnC0i9ztDJitivtQvaI9KaLyKrc+hBW0yg==}
@@ -499,10 +342,6 @@ packages:
     resolution: {integrity: sha512-ztqyC3kLto0e9WbNp0aeP+M3kTt+nbaIveGmUxAtZa+8iFgKLUOD4YKM5j+f3QD89bra7UeumolZHKuOXnTmeQ==}
     engines: {node: '>=8'}
 
-<<<<<<< HEAD
-  ignore@5.3.2:
-    resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
-=======
   ieee754@1.2.1:
     resolution: {integrity: sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==}
 
@@ -512,7 +351,6 @@ packages:
 
   ignore@7.0.0:
     resolution: {integrity: sha512-lcX8PNQygAa22u/0BysEY8VhaFRzlOkvdlKczDPnJvrkJD1EuqzEky5VYYKM2iySIuaVIDv9N190DfSreSLw2A==}
->>>>>>> b9e4e37 (Update dependencies)
     engines: {node: '>= 4'}
 
   import-fresh@3.3.0:
@@ -572,13 +410,8 @@ packages:
     resolution: {integrity: sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==}
     engines: {node: '>=0.10.0'}
 
-<<<<<<< HEAD
-  known-css-properties@0.34.0:
-    resolution: {integrity: sha512-tBECoUqNFbyAY4RrbqsBQqDFpGXAEbdD5QKr8kACx3+rnArmuuR22nKQWKazvp07N9yjTyDZaw/20UIH8tL9DQ==}
-=======
   known-css-properties@0.35.0:
     resolution: {integrity: sha512-a/RAk2BfKk+WFGhhOCAYqSiFLc34k8Mt/6NWRI4joER0EYUzXIcFivjjnoD3+XU1DggLn/tZc3DOAgke7l8a4A==}
->>>>>>> b9e4e37 (Update dependencies)
 
   lines-and-columns@1.2.4:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
@@ -656,33 +489,19 @@ packages:
     peerDependencies:
       postcss: ^8.4.29
 
-<<<<<<< HEAD
-  postcss-selector-parser@6.1.2:
-    resolution: {integrity: sha512-Q8qQfPiZ+THO/3ZrOrO0cJJKfpYCagtMUkXbnEfmgUjwXg6z/WBeOyS9APBBPCTSiDV+s4SwQGu8yFsiMRIudg==}
-=======
   postcss-selector-parser@7.0.0:
     resolution: {integrity: sha512-9RbEr1Y7FFfptd/1eEdntyjMwLeghW1bHX9GWjXo19vx4ytPQhANltvVxDggzJl7mnWM+dX28kb6cyS/4iQjlQ==}
->>>>>>> b9e4e37 (Update dependencies)
     engines: {node: '>=4'}
 
   postcss-value-parser@4.2.0:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
 
-<<<<<<< HEAD
-  postcss@8.4.42:
-    resolution: {integrity: sha512-hywKUQB9Ra4dR1mGhldy5Aj1X3MWDSIA1cEi+Uy0CjheLvP6Ual5RlwMCh8i/X121yEDLDIKBsrCQ8ba3FDMfQ==}
-    engines: {node: ^10 || ^12 || >=14}
-
-  prettier@3.3.3:
-    resolution: {integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==}
-=======
   postcss@8.4.49:
     resolution: {integrity: sha512-OCVPnIObs4N29kxTjzLfUryOkvZEq+pf8jTF0lg8E7uETuWHA+v7j3c/xJmiqpX450191LlmZfUKkXxkTry7nA==}
     engines: {node: ^10 || ^12 || >=14}
 
   prettier@3.4.2:
     resolution: {integrity: sha512-e9MewbtFo+Fevyuxn/4rrcDAaq0IYxPGLvObpQjiZBMAzB9IGmzlnG9RZy3FFas+eBMu2vA0CszMeduow5dIuQ==}
->>>>>>> b9e4e37 (Update dependencies)
     engines: {node: '>=14'}
     hasBin: true
 
@@ -705,13 +524,8 @@ packages:
     resolution: {integrity: sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==}
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
 
-<<<<<<< HEAD
-  rollup@4.21.2:
-    resolution: {integrity: sha512-e3TapAgYf9xjdLvKQCkQTnbTKd4a6jwlpQSJJFokHGaX2IVjoEqkIIhiQfqsi0cdwlOD+tQGuOd5AJkc5RngBw==}
-=======
   rollup@4.30.1:
     resolution: {integrity: sha512-mlJ4glW020fPuLi7DkM/lN97mYEZGWeqBnrljzN0gs7GLctqX3lNWxKQ7Gl712UAX+6fog/L3jh4gb7R6aVi3w==}
->>>>>>> b9e4e37 (Update dependencies)
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
 
@@ -742,21 +556,15 @@ packages:
     resolution: {integrity: sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==}
     engines: {node: '>=8'}
 
-  stylelint-config-recommended-scss@14.0.0:
-    resolution: {integrity: sha512-HDvpoOAQ1RpF+sPbDOT2Q2/YrBDEJDnUymmVmZ7mMCeNiFSdhRdyGEimBkz06wsN+HaFwUh249gDR+I9JR7Onw==}
+  stylelint-config-recommended-scss@14.1.0:
+    resolution: {integrity: sha512-bhaMhh1u5dQqSsf6ri2GVWWQW5iUjBYgcHkh7SgDDn92ijoItC/cfO/W+fpXshgTQWhwFkP1rVcewcv4jaftRg==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
       postcss: ^8.3.3
-      stylelint: ^16.0.2
+      stylelint: ^16.6.1
     peerDependenciesMeta:
       postcss:
         optional: true
-
-  stylelint-config-recommended@14.0.0:
-    resolution: {integrity: sha512-jSkx290CglS8StmrLp2TxAppIajzIBZKYm3IxT89Kg6fGlxbPiTiyH9PS5YUuVAFwaJLl1ikiXX0QWjI0jmgZQ==}
-    engines: {node: '>=18.12.0'}
-    peerDependencies:
-      stylelint: ^16.0.0
 
   stylelint-config-recommended@14.0.1:
     resolution: {integrity: sha512-bLvc1WOz/14aPImu/cufKAZYfXs/A/owZfSMZ4N+16WGXLoX5lOir53M6odBxvhgmgdxCVnNySJmZKx73T93cg==}
@@ -764,12 +572,18 @@ packages:
     peerDependencies:
       stylelint: ^16.1.0
 
-  stylelint-config-standard-scss@13.1.0:
-    resolution: {integrity: sha512-Eo5w7/XvwGHWkeGLtdm2FZLOMYoZl1omP2/jgFCXyl2x5yNz7/8vv4Tj6slHvMSSUNTaGoam/GAZ0ZhukvalfA==}
+  stylelint-config-recommended@15.0.0:
+    resolution: {integrity: sha512-9LejMFsat7L+NXttdHdTq94byn25TD+82bzGRiV1Pgasl99pWnwipXS5DguTpp3nP1XjvLXVnEJIuYBfsRjRkA==}
+    engines: {node: '>=18.12.0'}
+    peerDependencies:
+      stylelint: ^16.13.0
+
+  stylelint-config-standard-scss@14.0.0:
+    resolution: {integrity: sha512-6Pa26D9mHyi4LauJ83ls3ELqCglU6VfCXchovbEqQUiEkezvKdv6VgsIoMy58i00c854wVmOw0k8W5FTpuaVqg==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
       postcss: ^8.3.3
-      stylelint: ^16.3.1
+      stylelint: ^16.11.0
     peerDependenciesMeta:
       postcss:
         optional: true
@@ -780,24 +594,20 @@ packages:
     peerDependencies:
       stylelint: ^16.1.0
 
-<<<<<<< HEAD
-  stylelint-scss@6.5.1:
-    resolution: {integrity: sha512-ZLqdqihm6uDYkrsOeD6YWb+stZI8Wn92kUNDhE4M+g9g1aCnRv0JlOrttFiAJJwaNzpdQgX3YJb5vDQXVuO9Ww==}
-=======
+  stylelint-config-standard@37.0.0:
+    resolution: {integrity: sha512-+6eBlbSTrOn/il2RlV0zYGQwRTkr+WtzuVSs1reaWGObxnxLpbcspCUYajVQHonVfxVw2U+h42azGhrBvcg8OA==}
+    engines: {node: '>=18.12.0'}
+    peerDependencies:
+      stylelint: ^16.13.0
+
   stylelint-scss@6.10.0:
     resolution: {integrity: sha512-y03if6Qw9xBMoVaf7tzp5BbnYhYvudIKzURkhSHzcHG0bW0fAYvQpTUVJOe7DyhHaxeThBil4ObEMvGbV7+M+w==}
->>>>>>> b9e4e37 (Update dependencies)
     engines: {node: '>=18.12.0'}
     peerDependencies:
       stylelint: ^16.0.2
 
-<<<<<<< HEAD
-  stylelint@16.9.0:
-    resolution: {integrity: sha512-31Nm3WjxGOBGpQqF43o3wO9L5AC36TPIe6030Lnm13H3vDMTcS21DrLh69bMX+DBilKqMMVLian4iG6ybBoNRQ==}
-=======
   stylelint@16.13.0:
     resolution: {integrity: sha512-muxVjMhZB8BrDFSKNva0dmvD2tM0o/szrvuZuXYcAnN9a8nQmbGLqNUOemSgumaCMCPQ+0USYyG3hA5vJjUC1Q==}
->>>>>>> b9e4e37 (Update dependencies)
     engines: {node: '>=18.12.0'}
     hasBin: true
 
@@ -833,42 +643,12 @@ packages:
 
 snapshots:
 
-<<<<<<< HEAD
-  '@babel/code-frame@7.24.7':
-    dependencies:
-      '@babel/highlight': 7.24.7
-      picocolors: 1.0.1
-
-  '@babel/helper-validator-identifier@7.24.7': {}
-
-  '@babel/highlight@7.24.7':
-    dependencies:
-      '@babel/helper-validator-identifier': 7.24.7
-      chalk: 2.4.2
-=======
   '@babel/code-frame@7.26.2':
     dependencies:
       '@babel/helper-validator-identifier': 7.25.9
->>>>>>> b9e4e37 (Update dependencies)
       js-tokens: 4.0.0
       picocolors: 1.1.1
 
-<<<<<<< HEAD
-  '@csstools/css-parser-algorithms@3.0.1(@csstools/css-tokenizer@3.0.1)':
-    dependencies:
-      '@csstools/css-tokenizer': 3.0.1
-
-  '@csstools/css-tokenizer@3.0.1': {}
-
-  '@csstools/media-query-list-parser@3.0.1(@csstools/css-parser-algorithms@3.0.1(@csstools/css-tokenizer@3.0.1))(@csstools/css-tokenizer@3.0.1)':
-    dependencies:
-      '@csstools/css-parser-algorithms': 3.0.1(@csstools/css-tokenizer@3.0.1)
-      '@csstools/css-tokenizer': 3.0.1
-
-  '@csstools/selector-specificity@4.0.0(postcss-selector-parser@6.1.2)':
-    dependencies:
-      postcss-selector-parser: 6.1.2
-=======
   '@babel/helper-validator-identifier@7.25.9': {}
 
   '@csstools/css-parser-algorithms@3.0.4(@csstools/css-tokenizer@3.0.3)':
@@ -885,7 +665,6 @@ snapshots:
   '@csstools/selector-specificity@5.0.0(postcss-selector-parser@7.0.0)':
     dependencies:
       postcss-selector-parser: 7.0.0
->>>>>>> b9e4e37 (Update dependencies)
 
   '@dual-bundle/import-meta-resolve@4.1.0': {}
 
@@ -905,54 +684,6 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.18.0
 
-<<<<<<< HEAD
-  '@rollup/rollup-android-arm-eabi@4.21.2':
-    optional: true
-
-  '@rollup/rollup-android-arm64@4.21.2':
-    optional: true
-
-  '@rollup/rollup-darwin-arm64@4.21.2':
-    optional: true
-
-  '@rollup/rollup-darwin-x64@4.21.2':
-    optional: true
-
-  '@rollup/rollup-linux-arm-gnueabihf@4.21.2':
-    optional: true
-
-  '@rollup/rollup-linux-arm-musleabihf@4.21.2':
-    optional: true
-
-  '@rollup/rollup-linux-arm64-gnu@4.21.2':
-    optional: true
-
-  '@rollup/rollup-linux-arm64-musl@4.21.2':
-    optional: true
-
-  '@rollup/rollup-linux-powerpc64le-gnu@4.21.2':
-    optional: true
-
-  '@rollup/rollup-linux-riscv64-gnu@4.21.2':
-    optional: true
-
-  '@rollup/rollup-linux-s390x-gnu@4.21.2':
-    optional: true
-
-  '@rollup/rollup-linux-x64-gnu@4.21.2':
-    optional: true
-
-  '@rollup/rollup-linux-x64-musl@4.21.2':
-    optional: true
-
-  '@rollup/rollup-win32-arm64-msvc@4.21.2':
-    optional: true
-
-  '@rollup/rollup-win32-ia32-msvc@4.21.2':
-    optional: true
-
-  '@rollup/rollup-win32-x64-msvc@4.21.2':
-=======
   '@rollup/rollup-android-arm-eabi@4.30.1':
     optional: true
 
@@ -999,18 +730,11 @@ snapshots:
     optional: true
 
   '@rollup/rollup-linux-x64-musl@4.30.1':
->>>>>>> b9e4e37 (Update dependencies)
     optional: true
 
   '@rollup/rollup-win32-arm64-msvc@4.30.1':
     optional: true
 
-<<<<<<< HEAD
-  ajv@8.17.1:
-    dependencies:
-      fast-deep-equal: 3.1.3
-      fast-uri: 3.0.1
-=======
   '@rollup/rollup-win32-ia32-msvc@4.30.1':
     optional: true
 
@@ -1023,7 +747,6 @@ snapshots:
     dependencies:
       fast-deep-equal: 3.1.3
       fast-uri: 3.0.5
->>>>>>> b9e4e37 (Update dependencies)
       json-schema-traverse: 1.0.0
       require-from-string: 2.0.2
 
@@ -1083,11 +806,7 @@ snapshots:
 
   cssesc@3.0.0: {}
 
-<<<<<<< HEAD
-  debug@4.3.6:
-=======
   debug@4.4.0:
->>>>>>> b9e4e37 (Update dependencies)
     dependencies:
       ms: 2.1.3
 
@@ -1113,11 +832,7 @@ snapshots:
       merge2: 1.4.1
       micromatch: 4.0.8
 
-<<<<<<< HEAD
-  fast-uri@3.0.1: {}
-=======
   fast-uri@3.0.5: {}
->>>>>>> b9e4e37 (Update dependencies)
 
   fastest-levenshtein@1.0.16: {}
 
@@ -1125,11 +840,7 @@ snapshots:
     dependencies:
       reusify: 1.0.4
 
-<<<<<<< HEAD
-  file-entry-cache@9.1.0:
-=======
   file-entry-cache@10.0.5:
->>>>>>> b9e4e37 (Update dependencies)
     dependencies:
       flat-cache: 6.1.5
 
@@ -1166,11 +877,7 @@ snapshots:
     dependencies:
       array-union: 2.1.0
       dir-glob: 3.0.1
-<<<<<<< HEAD
-      fast-glob: 3.3.2
-=======
       fast-glob: 3.3.3
->>>>>>> b9e4e37 (Update dependencies)
       ignore: 5.3.2
       merge2: 1.4.1
       slash: 3.0.0
@@ -1183,15 +890,11 @@ snapshots:
 
   html-tags@3.3.1: {}
 
-<<<<<<< HEAD
-  ignore@5.3.2: {}
-=======
   ieee754@1.2.1: {}
 
   ignore@5.3.2: {}
 
   ignore@7.0.0: {}
->>>>>>> b9e4e37 (Update dependencies)
 
   import-fresh@3.3.0:
     dependencies:
@@ -1234,11 +937,7 @@ snapshots:
 
   kind-of@6.0.3: {}
 
-<<<<<<< HEAD
-  known-css-properties@0.34.0: {}
-=======
   known-css-properties@0.35.0: {}
->>>>>>> b9e4e37 (Update dependencies)
 
   lines-and-columns@1.2.4: {}
 
@@ -1271,11 +970,7 @@ snapshots:
 
   parse-json@5.2.0:
     dependencies:
-<<<<<<< HEAD
-      '@babel/code-frame': 7.24.7
-=======
       '@babel/code-frame': 7.26.2
->>>>>>> b9e4e37 (Update dependencies)
       error-ex: 1.3.2
       json-parse-even-better-errors: 2.3.1
       lines-and-columns: 1.2.4
@@ -1290,17 +985,6 @@ snapshots:
 
   postcss-resolve-nested-selector@0.1.6: {}
 
-<<<<<<< HEAD
-  postcss-safe-parser@7.0.0(postcss@8.4.42):
-    dependencies:
-      postcss: 8.4.42
-
-  postcss-scss@4.0.9(postcss@8.4.42):
-    dependencies:
-      postcss: 8.4.42
-
-  postcss-selector-parser@6.1.2:
-=======
   postcss-safe-parser@7.0.1(postcss@8.4.49):
     dependencies:
       postcss: 8.4.49
@@ -1310,28 +994,19 @@ snapshots:
       postcss: 8.4.49
 
   postcss-selector-parser@7.0.0:
->>>>>>> b9e4e37 (Update dependencies)
     dependencies:
       cssesc: 3.0.0
       util-deprecate: 1.0.2
 
   postcss-value-parser@4.2.0: {}
 
-<<<<<<< HEAD
-  postcss@8.4.42:
-=======
   postcss@8.4.49:
->>>>>>> b9e4e37 (Update dependencies)
     dependencies:
       nanoid: 3.3.8
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-<<<<<<< HEAD
-  prettier@3.3.3: {}
-=======
   prettier@3.4.2: {}
->>>>>>> b9e4e37 (Update dependencies)
 
   queue-microtask@1.2.3: {}
 
@@ -1343,32 +1018,10 @@ snapshots:
 
   reusify@1.0.4: {}
 
-<<<<<<< HEAD
-  rollup@4.21.2:
-=======
   rollup@4.30.1:
->>>>>>> b9e4e37 (Update dependencies)
     dependencies:
       '@types/estree': 1.0.6
     optionalDependencies:
-<<<<<<< HEAD
-      '@rollup/rollup-android-arm-eabi': 4.21.2
-      '@rollup/rollup-android-arm64': 4.21.2
-      '@rollup/rollup-darwin-arm64': 4.21.2
-      '@rollup/rollup-darwin-x64': 4.21.2
-      '@rollup/rollup-linux-arm-gnueabihf': 4.21.2
-      '@rollup/rollup-linux-arm-musleabihf': 4.21.2
-      '@rollup/rollup-linux-arm64-gnu': 4.21.2
-      '@rollup/rollup-linux-arm64-musl': 4.21.2
-      '@rollup/rollup-linux-powerpc64le-gnu': 4.21.2
-      '@rollup/rollup-linux-riscv64-gnu': 4.21.2
-      '@rollup/rollup-linux-s390x-gnu': 4.21.2
-      '@rollup/rollup-linux-x64-gnu': 4.21.2
-      '@rollup/rollup-linux-x64-musl': 4.21.2
-      '@rollup/rollup-win32-arm64-msvc': 4.21.2
-      '@rollup/rollup-win32-ia32-msvc': 4.21.2
-      '@rollup/rollup-win32-x64-msvc': 4.21.2
-=======
       '@rollup/rollup-android-arm-eabi': 4.30.1
       '@rollup/rollup-android-arm64': 4.30.1
       '@rollup/rollup-darwin-arm64': 4.30.1
@@ -1388,7 +1041,6 @@ snapshots:
       '@rollup/rollup-win32-arm64-msvc': 4.30.1
       '@rollup/rollup-win32-ia32-msvc': 4.30.1
       '@rollup/rollup-win32-x64-msvc': 4.30.1
->>>>>>> b9e4e37 (Update dependencies)
       fsevents: 2.3.3
 
   run-parallel@1.2.0:
@@ -1417,82 +1069,40 @@ snapshots:
     dependencies:
       ansi-regex: 5.0.1
 
-  stylelint-config-recommended-scss@14.0.0(postcss@8.4.49)(stylelint@16.13.0):
+  stylelint-config-recommended-scss@14.1.0(postcss@8.4.49)(stylelint@16.13.0):
     dependencies:
-<<<<<<< HEAD
-      ansi-regex: 6.0.1
-
-  stylelint-config-recommended-scss@14.0.0(postcss@8.4.42)(stylelint@16.9.0):
-    dependencies:
-      postcss-scss: 4.0.9(postcss@8.4.42)
-      stylelint: 16.9.0
-      stylelint-config-recommended: 14.0.0(stylelint@16.9.0)
-      stylelint-scss: 6.5.1(stylelint@16.9.0)
-    optionalDependencies:
-      postcss: 8.4.42
-
-  stylelint-config-recommended@14.0.0(stylelint@16.9.0):
-    dependencies:
-      stylelint: 16.9.0
-
-  stylelint-config-recommended@14.0.1(stylelint@16.9.0):
-    dependencies:
-      stylelint: 16.9.0
-
-  stylelint-config-standard-scss@13.1.0(postcss@8.4.42)(stylelint@16.9.0):
-    dependencies:
-      stylelint: 16.9.0
-      stylelint-config-recommended-scss: 14.0.0(postcss@8.4.42)(stylelint@16.9.0)
-      stylelint-config-standard: 36.0.1(stylelint@16.9.0)
-    optionalDependencies:
-      postcss: 8.4.42
-
-  stylelint-config-standard@36.0.1(stylelint@16.9.0):
-    dependencies:
-      stylelint: 16.9.0
-      stylelint-config-recommended: 14.0.1(stylelint@16.9.0)
-
-  stylelint-scss@6.5.1(stylelint@16.9.0):
-    dependencies:
-      css-tree: 2.3.1
-      is-plain-object: 5.0.0
-      known-css-properties: 0.34.0
-      postcss-media-query-parser: 0.2.3
-      postcss-resolve-nested-selector: 0.1.6
-      postcss-selector-parser: 6.1.2
-      postcss-value-parser: 4.2.0
-      stylelint: 16.9.0
-
-  stylelint@16.9.0:
-    dependencies:
-      '@csstools/css-parser-algorithms': 3.0.1(@csstools/css-tokenizer@3.0.1)
-      '@csstools/css-tokenizer': 3.0.1
-      '@csstools/media-query-list-parser': 3.0.1(@csstools/css-parser-algorithms@3.0.1(@csstools/css-tokenizer@3.0.1))(@csstools/css-tokenizer@3.0.1)
-      '@csstools/selector-specificity': 4.0.0(postcss-selector-parser@6.1.2)
-=======
       postcss-scss: 4.0.9(postcss@8.4.49)
       stylelint: 16.13.0
-      stylelint-config-recommended: 14.0.0(stylelint@16.13.0)
+      stylelint-config-recommended: 14.0.1(stylelint@16.13.0)
       stylelint-scss: 6.10.0(stylelint@16.13.0)
     optionalDependencies:
       postcss: 8.4.49
 
-  stylelint-config-recommended@14.0.0(stylelint@16.13.0):
+  stylelint-config-recommended@14.0.1(stylelint@16.13.0):
     dependencies:
       stylelint: 16.13.0
 
-  stylelint-config-standard-scss@13.1.0(postcss@8.4.49)(stylelint@16.13.0):
+  stylelint-config-recommended@15.0.0(stylelint@16.13.0):
     dependencies:
       stylelint: 16.13.0
-      stylelint-config-recommended-scss: 14.0.0(postcss@8.4.49)(stylelint@16.13.0)
-      stylelint-config-standard: 36.0.0(stylelint@16.13.0)
+
+  stylelint-config-standard-scss@14.0.0(postcss@8.4.49)(stylelint@16.13.0):
+    dependencies:
+      stylelint: 16.13.0
+      stylelint-config-recommended-scss: 14.1.0(postcss@8.4.49)(stylelint@16.13.0)
+      stylelint-config-standard: 36.0.1(stylelint@16.13.0)
     optionalDependencies:
       postcss: 8.4.49
 
-  stylelint-config-standard@36.0.0(stylelint@16.13.0):
+  stylelint-config-standard@36.0.1(stylelint@16.13.0):
     dependencies:
       stylelint: 16.13.0
-      stylelint-config-recommended: 14.0.0(stylelint@16.13.0)
+      stylelint-config-recommended: 14.0.1(stylelint@16.13.0)
+
+  stylelint-config-standard@37.0.0(stylelint@16.13.0):
+    dependencies:
+      stylelint: 16.13.0
+      stylelint-config-recommended: 15.0.0(stylelint@16.13.0)
 
   stylelint-scss@6.10.0(stylelint@16.13.0):
     dependencies:
@@ -1512,56 +1122,28 @@ snapshots:
       '@csstools/css-tokenizer': 3.0.3
       '@csstools/media-query-list-parser': 4.0.2(@csstools/css-parser-algorithms@3.0.4(@csstools/css-tokenizer@3.0.3))(@csstools/css-tokenizer@3.0.3)
       '@csstools/selector-specificity': 5.0.0(postcss-selector-parser@7.0.0)
->>>>>>> b9e4e37 (Update dependencies)
       '@dual-bundle/import-meta-resolve': 4.1.0
       balanced-match: 2.0.0
       colord: 2.9.3
       cosmiconfig: 9.0.0
-<<<<<<< HEAD
-      css-functions-list: 3.2.2
-      css-tree: 2.3.1
-      debug: 4.3.6
-      fast-glob: 3.3.2
-      fastest-levenshtein: 1.0.16
-      file-entry-cache: 9.1.0
-=======
       css-functions-list: 3.2.3
       css-tree: 3.1.0
       debug: 4.4.0
       fast-glob: 3.3.3
       fastest-levenshtein: 1.0.16
       file-entry-cache: 10.0.5
->>>>>>> b9e4e37 (Update dependencies)
       global-modules: 2.0.0
       globby: 11.1.0
       globjoin: 0.1.4
       html-tags: 3.3.1
-<<<<<<< HEAD
-      ignore: 5.3.2
-      imurmurhash: 0.1.4
-      is-plain-object: 5.0.0
-      known-css-properties: 0.34.0
-=======
       ignore: 7.0.0
       imurmurhash: 0.1.4
       is-plain-object: 5.0.0
       known-css-properties: 0.35.0
->>>>>>> b9e4e37 (Update dependencies)
       mathml-tag-names: 2.1.3
       meow: 13.2.0
       micromatch: 4.0.8
       normalize-path: 3.0.0
-<<<<<<< HEAD
-      picocolors: 1.0.1
-      postcss: 8.4.42
-      postcss-resolve-nested-selector: 0.1.6
-      postcss-safe-parser: 7.0.0(postcss@8.4.42)
-      postcss-selector-parser: 6.1.2
-      postcss-value-parser: 4.2.0
-      resolve-from: 5.0.0
-      string-width: 4.2.3
-      strip-ansi: 7.1.0
-=======
       picocolors: 1.1.1
       postcss: 8.4.49
       postcss-resolve-nested-selector: 0.1.6
@@ -1570,7 +1152,6 @@ snapshots:
       postcss-value-parser: 4.2.0
       resolve-from: 5.0.0
       string-width: 4.2.3
->>>>>>> b9e4e37 (Update dependencies)
       supports-hyperlinks: 3.1.0
       svg-tags: 1.0.0
       table: 6.9.0
