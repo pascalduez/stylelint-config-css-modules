@@ -2,14 +2,25 @@
 @value colors: "./colors.css";
 @value primary, secondary from colors;
 @value small as bp-small, large as bp-large from "./breakpoints.css";
+@value someValue: orange;
 
 .base {
   content: "base";
-  color: grey;
+}
+
+/* stylelint-disable-next-line selector-class-pattern */
+.camelCase {
+  content: "camel";
+}
+
+.kebab-case {
+  content: "kebab";
 }
 
 .composed {
   composes: base;
+  composes: camelCase;
+  composes: kebab-case;
 }
 
 .composed-with {
