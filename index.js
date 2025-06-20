@@ -15,6 +15,7 @@ export default {
     'selector-type-no-unknown': [
       true,
       {
+        ignore: ["custom-elements"],
         ignoreTypes: ['from'],
       },
     ],
