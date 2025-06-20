@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [4.4.1] - 2025-06-20
+### Fixed
+  * Update `selector-type-no-unknown` to match default configuration of
+    `stylelint-config-recommended` and ignore custom elements.
+    See https://github.com/pascalduez/stylelint-config-css-modules/pull/21
+
 ## [4.4.0] - 2023-12-20
 ### Added
   * Add support for Stylelint 16.
@@ -101,7 +107,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [0.1.0] - 2016-09-12
   * Initial release.
 
-[Unreleased]: https://github.com/pascalduez/stylelint-config-css-modules/compare/4.2.0...HEAD
+[Unreleased]: https://github.com/pascalduez/stylelint-config-css-modules/compare/4.4.1...HEAD
+[4.4.1]: https://github.com/pascalduez/stylelint-config-css-modules/tags/4.4.1
+[4.4.0]: https://github.com/pascalduez/stylelint-config-css-modules/tags/4.4.0
+[4.3.0]: https://github.com/pascalduez/stylelint-config-css-modules/tags/4.3.0
 [4.2.0]: https://github.com/pascalduez/stylelint-config-css-modules/tags/4.2.0
 [4.1.0]: https://github.com/pascalduez/stylelint-config-css-modules/tags/4.1.0
 [4.0.1]: https://github.com/pascalduez/stylelint-config-css-modules/tags/4.0.1
