@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+### Fixed
+  * Remove `function-no-unknown` overrides since that rule is not part
+    of `stylelint-config-standard` nor `stylelint-config-standard-scss`
+    anymore.
+
 ## [4.4.1] - 2025-06-20
 ### Fixed
   * Update `selector-type-no-unknown` to match default configuration of
