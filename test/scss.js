@@ -5,7 +5,7 @@ import stylelint from 'stylelint';
 
 const config = {
   extends: [
-    'stylelint-config-standard',
+    'stylelint-config-standard-scss',
     path.join(import.meta.dirname, '..', 'index.js'),
   ],
 };
