@@ -5,14 +5,18 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [4.5.0] - 2025-06-22
 ### Added
   * Override `at-rule-empty-line-before` from `stylelint-config-standard` to
     ignore `@value` at rules.
+    See https://github.com/pascalduez/stylelint-config-css-modules/pull/23
 
 ### Fixed
   * Remove `function-no-unknown` overrides since that rule is not part
     of `stylelint-config-standard` nor `stylelint-config-standard-scss`
     anymore.
+    See https://github.com/pascalduez/stylelint-config-css-modules/pull/22
 
 ## [4.4.1] - 2025-06-20
 ### Fixed
@@ -115,7 +119,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [0.1.0] - 2016-09-12
   * Initial release.
 
-[Unreleased]: https://github.com/pascalduez/stylelint-config-css-modules/compare/4.4.1...HEAD
+[Unreleased]: https://github.com/pascalduez/stylelint-config-css-modules/compare/4.5.0...HEAD
+[4.5.0]: https://github.com/pascalduez/stylelint-config-css-modules/tags/4.5.0
 [4.4.1]: https://github.com/pascalduez/stylelint-config-css-modules/tags/4.4.1
 [4.4.0]: https://github.com/pascalduez/stylelint-config-css-modules/tags/4.4.0
 [4.3.0]: https://github.com/pascalduez/stylelint-config-css-modules/tags/4.3.0
