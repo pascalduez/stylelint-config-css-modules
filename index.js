@@ -32,12 +32,6 @@ export default {
         ignoreAtRules: ['value'],
       },
     ],
-    'function-no-unknown': [
-      true,
-      {
-        ignoreFunctions: ['global'],
-      },
-    ],
   },
   overrides: [
     {
@@ -49,13 +43,6 @@ export default {
           true,
           {
             ignoreAtRules: ['value'],
-          },
-        ],
-        'function-no-unknown': null,
-        'scss/function-no-unknown': [
-          true,
-          {
-            ignoreFunctions: ['global'],
           },
         ],
       },
