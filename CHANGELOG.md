@@ -5,6 +5,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Added
+  * Override `at-rule-empty-line-before` from `stylelint-config-standard` to
+    ignore `@value` at rules.
 
 ### Fixed
   * Remove `function-no-unknown` overrides since that rule is not part

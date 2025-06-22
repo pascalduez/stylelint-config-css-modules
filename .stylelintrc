@@ -1,3 +1,9 @@
 {
-  "extends": ["stylelint-config-standard", "./index.js"]
+  "extends": ["stylelint-config-standard", "./index.js"],
+  "overrides": [
+    {
+      "files": "**/*.scss",
+      "extends": ["stylelint-config-standard-scss", "./index.js"]
+    }
+  ]
 }
