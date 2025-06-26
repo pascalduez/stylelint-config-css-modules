@@ -12,4 +12,10 @@
 
 .test {
   content: math.div(42, 5);
+
+  @if true {
+    color: red;
+  } @else {
+    color: blue;
+  }
 }
