@@ -6,6 +6,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [4.5.1] - 2025-06-30
+### Fixed
+  * Overrides `at-rule-empty-line-before` specificaly for SCSS.
+    The rule in `stylelint-config-standard-scss` is slightly different than the 
+    one in `stylelint-config-standard-css`.
+    Basically if using Sass we should extend `stylelint-config-standard-scss` 
+    not `stylelint-config-standard-css`.
+    See https://github.com/pascalduez/stylelint-config-css-modules/pull/25
+
 ## [4.5.0] - 2025-06-22
 ### Added
   * Override `at-rule-empty-line-before` from `stylelint-config-standard` to
@@ -119,7 +128,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [0.1.0] - 2016-09-12
   * Initial release.
 
-[Unreleased]: https://github.com/pascalduez/stylelint-config-css-modules/compare/4.5.0...HEAD
+[Unreleased]: https://github.com/pascalduez/stylelint-config-css-modules/compare/4.5.1...HEAD
+[4.5.1]: https://github.com/pascalduez/stylelint-config-css-modules/tags/4.5.1
 [4.5.0]: https://github.com/pascalduez/stylelint-config-css-modules/tags/4.5.0
 [4.4.1]: https://github.com/pascalduez/stylelint-config-css-modules/tags/4.4.1
 [4.4.0]: https://github.com/pascalduez/stylelint-config-css-modules/tags/4.4.0
