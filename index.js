@@ -37,7 +37,7 @@ export default {
       {
         except: ['blockless-after-same-name-blockless', 'first-nested'],
         ignore: ['after-comment'],
-        ignoreAtRules: ['value', 'else'],
+        ignoreAtRules: ['value'],
       },
     ],
   },
@@ -51,6 +51,14 @@ export default {
           true,
           {
             ignoreAtRules: ['value'],
+          },
+        ],
+        'at-rule-empty-line-before': [
+          'always',
+          {
+            except: ['blockless-after-blockless', 'first-nested'],
+            ignore: ['after-comment'],
+            ignoreAtRules: ['else', 'value'],
           },
         ],
       },
