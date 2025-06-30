@@ -10,9 +10,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Fixed
   * Overrides `at-rule-empty-line-before` specificaly for SCSS.
     The rule in `stylelint-config-standard-scss` is slightly different than the 
-    one in `stylelint-config-standard-css`.
+    one in `stylelint-config-standard`.
     Basically if using Sass we should extend `stylelint-config-standard-scss` 
-    not `stylelint-config-standard-css`.
+    not `stylelint-config-standard`.
     See https://github.com/pascalduez/stylelint-config-css-modules/pull/25
 
 ## [4.5.0] - 2025-06-22
