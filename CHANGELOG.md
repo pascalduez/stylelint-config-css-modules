@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [4.6.0] - 2026-01-23
 ### Added
   * Add support for Stylelint 17.
     None of the breaking changes are impacting this config.
@@ -132,7 +134,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [0.1.0] - 2016-09-12
   * Initial release.
 
-[Unreleased]: https://github.com/pascalduez/stylelint-config-css-modules/compare/4.5.1...HEAD
+[Unreleased]: https://github.com/pascalduez/stylelint-config-css-modules/compare/4.6.0...HEAD
+[4.6.0]: https://github.com/pascalduez/stylelint-config-css-modules/tags/4.6.0
 [4.5.1]: https://github.com/pascalduez/stylelint-config-css-modules/tags/4.5.1
 [4.5.0]: https://github.com/pascalduez/stylelint-config-css-modules/tags/4.5.0
 [4.4.1]: https://github.com/pascalduez/stylelint-config-css-modules/tags/4.4.1
