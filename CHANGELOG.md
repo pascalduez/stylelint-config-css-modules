@@ -5,6 +5,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Added
+  * Add support for Stylelint 17.
+    None of the breaking changes are impacting this config.
+    It stays compatible with previous Stylelint versions.
 
 ## [4.5.1] - 2025-06-30
 ### Fixed
