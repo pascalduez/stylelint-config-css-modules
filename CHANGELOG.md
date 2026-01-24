@@ -1,4 +1,5 @@
 # Change Log
+
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
@@ -7,132 +8,179 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased]
 
 ## [4.6.0] - 2026-01-23
+
 ### Added
-  * Add support for Stylelint 17.
-    None of the breaking changes are impacting this config.
-    It stays compatible with previous Stylelint versions.
+
+- Add support for Stylelint 17.
+  None of the breaking changes are impacting this config.
+  It stays compatible with previous Stylelint versions.
 
 ## [4.5.1] - 2025-06-30
+
 ### Fixed
-  * Overrides `at-rule-empty-line-before` specificaly for SCSS.
-    The rule in `stylelint-config-standard-scss` is slightly different than the 
-    one in `stylelint-config-standard`.
-    Basically if using Sass we should extend `stylelint-config-standard-scss` 
-    not `stylelint-config-standard`.
-    See https://github.com/pascalduez/stylelint-config-css-modules/pull/25
+
+- Overrides `at-rule-empty-line-before` specificaly for SCSS.
+  The rule in `stylelint-config-standard-scss` is slightly different than the
+  one in `stylelint-config-standard`.
+  Basically if using Sass we should extend `stylelint-config-standard-scss`
+  not `stylelint-config-standard`.
+  See https://github.com/pascalduez/stylelint-config-css-modules/pull/25
 
 ## [4.5.0] - 2025-06-22
+
 ### Added
-  * Override `at-rule-empty-line-before` from `stylelint-config-standard` to
-    ignore `@value` at rules.
-    See https://github.com/pascalduez/stylelint-config-css-modules/pull/23
+
+- Override `at-rule-empty-line-before` from `stylelint-config-standard` to
+  ignore `@value` at rules.
+  See https://github.com/pascalduez/stylelint-config-css-modules/pull/23
 
 ### Fixed
-  * Remove `function-no-unknown` overrides since that rule is not part
-    of `stylelint-config-standard` nor `stylelint-config-standard-scss`
-    anymore.
-    See https://github.com/pascalduez/stylelint-config-css-modules/pull/22
+
+- Remove `function-no-unknown` overrides since that rule is not part
+  of `stylelint-config-standard` nor `stylelint-config-standard-scss`
+  anymore.
+  See https://github.com/pascalduez/stylelint-config-css-modules/pull/22
 
 ## [4.4.1] - 2025-06-20
+
 ### Fixed
-  * Update `selector-type-no-unknown` to match default configuration of
-    `stylelint-config-recommended` and ignore custom elements.
-    See https://github.com/pascalduez/stylelint-config-css-modules/pull/21
+
+- Update `selector-type-no-unknown` to match default configuration of
+  `stylelint-config-recommended` and ignore custom elements.
+  See https://github.com/pascalduez/stylelint-config-css-modules/pull/21
 
 ## [4.4.0] - 2023-12-20
+
 ### Added
-  * Add support for Stylelint 16.
-    None of the breaking changes are impacting this config.
-    It stays compatible with previous Stylelint versions.
+
+- Add support for Stylelint 16.
+  None of the breaking changes are impacting this config.
+  It stays compatible with previous Stylelint versions.
 
 ### Changed
-  * Converted to an ES module, but with added support for commonjs.
-    It should be transparent to consumers.
+
+- Converted to an ES module, but with added support for commonjs.
+  It should be transparent to consumers.
 
 ## [4.3.0] - 2023-07-19
+
 ### Added
-  * Add support for `stylelint-scss@6.x` in optional dependencies.
+
+- Add support for `stylelint-scss@6.x` in optional dependencies.
 
 ## [4.2.0] - 2023-02-10
+
 ### Added
-  * Add support for Stylelint 15.
-    None of the breaking changes are impacting this config.
-    It stays compatible with Stylelint `^14.5.1`.
+
+- Add support for Stylelint 15.
+  None of the breaking changes are impacting this config.
+  It stays compatible with Stylelint `^14.5.1`.
 
 ## [4.1.0] - 2022-03-16
+
 ### Added
-  * SCSS, use the `function-no-unknow` rule from `stylelint-scss >= 4.2`.
+
+- SCSS, use the `function-no-unknow` rule from `stylelint-scss >= 4.2`.
 
 ### Changed
-  * Stylelint peerDependency version to `^14.5.1` 
-    (required by the function-no-unknown rule).
+
+- Stylelint peerDependency version to `^14.5.1`
+  (required by the function-no-unknown rule).
 
 ## [4.0.1] - 2022-03-11
+
 ### Fixed
-  * Missing SCSS plugin declaration.
+
+- Missing SCSS plugin declaration.
 
 ## [4.0.0] - 2022-03-11
+
 ### Added
-  * SCSS support trough `overrides` relying on `stylelint-scss` for:
-    - `at-rule-no-unknown`
-    - `function-no-unknow`
+
+- SCSS support trough `overrides` relying on `stylelint-scss` for:
+  - `at-rule-no-unknown`
+  - `function-no-unknow`
     See https://github.com/pascalduez/stylelint-config-css-modules/issues/6
-  * Now comes with `stylelint-scss` as `optionalDependency`.
+- Now comes with `stylelint-scss` as `optionalDependency`.
 
 ## [3.0.0] - 2022-02-11
+
 ### Changed
-  * `stylelint-config-standard@25.x` upgrade.
-    Added `function-no-unknown` rule override to support `global` function.
-  * **Breaking**
-    Only support Stylelint 14 onwards.
+
+- `stylelint-config-standard@25.x` upgrade.
+  Added `function-no-unknown` rule override to support `global` function.
+- **Breaking**
+  Only support Stylelint 14 onwards.
 
 ## [2.3.0] - 2021-10-25
+
 ### Added
-  * Add support for Stylelint 14.
+
+- Add support for Stylelint 14.
 
 ## [2.2.0] - 2020-01-12
+
 ### Added
-  * Add support for Stylelint 13.
+
+- Add support for Stylelint 13.
 
 ## [2.1.0] - 2019-11-18
+
 ### Added
-  * Add support for Stylelint 12.
+
+- Add support for Stylelint 12.
 
 ## [2.0.0] - 2019-11-04
+
 ### Added
-  * Add support for `:export` and `:import()` selectors.
+
+- Add support for `:export` and `:import()` selectors.
 
 ### Changed
-  * **Breaking**
-   Only support Stylelint 11 onwards.
+
+- **Breaking**
+  Only support Stylelint 11 onwards.
 
 ## [1.5.0] - 2019-09-16
+
 ### Added
-  * Add support for Stylelint 11.
+
+- Add support for Stylelint 11.
 
 ## [1.4.0] - 2019-04-14
+
 ### Added
-  * Add support for Stylelint 10.
+
+- Add support for Stylelint 10.
 
 ## [1.3.0] - 2018-06-23
+
 ### Added
-  * Add support for modular-css `:external` pseudo class.
-    See https://github.com/tivac/modular-css#style-overrides
+
+- Add support for modular-css `:external` pseudo class.
+  See https://github.com/tivac/modular-css#style-overrides
 
 ## [1.2.0] - 2018-02-18
+
 ### Added
-  * Add support for Stylelint 9.
+
+- Add support for Stylelint 9.
 
 ## [1.1.0] - 2017-07-17
+
 ### Added
-  * Add support for Stylelint 8.
+
+- Add support for Stylelint 8.
 
 ## [1.0.0] - 2017-04-17
+
 ### Added
-  * Add support for the `compose-with` property.
+
+- Add support for the `compose-with` property.
 
 ## [0.1.0] - 2016-09-12
-  * Initial release.
+
+- Initial release.
 
 [Unreleased]: https://github.com/pascalduez/stylelint-config-css-modules/compare/4.6.0...HEAD
 [4.6.0]: https://github.com/pascalduez/stylelint-config-css-modules/tags/4.6.0
