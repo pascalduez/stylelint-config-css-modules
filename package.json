@@ -51,6 +51,7 @@
     }
   },
   "devDependencies": {
+    "oxfmt": "^0.76.0",
     "postcss": "^8.5.32",
     "prettier": "^3.9.10",
     "rollup": "^4.67.4",
