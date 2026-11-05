@@ -15,17 +15,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v4
-
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4
-        with:
-          node-version-file: '.node-version'
-          cache: 'pnpm'
-
-      - name: Install
-        run: pnpm install
-
-      - name: Test
-        run: pnpm test
+      - uses: actions/checkout@v7
+      - uses: pnpm/setup@v3
+      - run: pnpm --version
+      - run: node --version
+      - run: pnpm test
