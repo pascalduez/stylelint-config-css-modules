@@ -1,0 +1,20 @@
+registries:
+  https://registry.npmjs.org/:
+    scopes: ['@']
+    # supportsTimeField: true
+
+# Explicitly allow or disallow packages install scripts.
+# Packages not listed in allowBuilds are disallowed by default and a warning is printed.
+# allowBuilds:
+
+# Wait one day after a package is published before installing it.
+minimumReleaseAge: 1440 # minutes (1 day) (pnpm default)
+
+# Fail if a package’s trust level has decreased.
+trustPolicy: no-downgrade
+
+# Ignore the check for packages published more than 30 days ago.
+# Helpful for older versions of packages that lack a process for publishing with signatures or provenance.
+trustPolicyIgnoreAfter: 43200 # minutes (30 days)
+
+
