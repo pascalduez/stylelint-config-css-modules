@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+### Added
+
+- Add support for Stylelint 18.
+  None of the breaking changes are impacting this config.
+  It stays compatible with previous Stylelint versions.
+
 ## [4.6.0] - 2026-01-23
 
 ### Added
